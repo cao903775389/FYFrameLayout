@@ -1,0 +1,16 @@
+PODS:
+  - FYFrameLayout (0.1.0)
+
+DEPENDENCIES:
+  - FYFrameLayout (from `../`)
+
+EXTERNAL SOURCES:
+  FYFrameLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FYFrameLayout: a901e1d9685b5a9cd2c4bde42f01f6a20de888bd
+
+PODFILE CHECKSUM: 58cc8b36b9887fe80ccac76527cb11e7886d585d
+
+COCOAPODS: 1.6.1
