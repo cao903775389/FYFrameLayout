@@ -6,14 +6,22 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		49D3C5F39D5E16CA607590A2814D9D86 /* FYFrameLayout */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D63C0CCAE7EF48C598E6BD8146C305CF /* Build configuration list for PBXAggregateTarget "FYFrameLayout" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = FYFrameLayout;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		02579A501BDBBFD54246C5C8719C9D8F /* Pods-FYFrameLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 721366ECB58AF60D389E15ABD8B28A98 /* Pods-FYFrameLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		112792F585AEBDDC149C01E6B0C730D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		3684DE27532F8A9027FACDB4CB4F731F /* FYFrameLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B95E0C41A565D3DBB1FB72090DC9018 /* FYFrameLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DE83E4E511F44918D135DCE420632EB /* FYFrameLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35580852D84159D1DBD27588E4A348D6 /* FYFrameLayout-dummy.m */; };
+		02579A501BDBBFD54246C5C8719C9D8F /* Pods-FYFrameLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05F1B22056BA2F331C79F5D21B622EFC /* Pods-FYFrameLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A799935F378828E9D48F5AC284FCE04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A33314DE01D7F2CB8B516688BD71C5CB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C94CABAE03A44ABED7764F1ED340DA /* ReplaceMe.m */; };
-		E4658DEAB45CF7FFA45F577FEFC89845 /* Pods-FYFrameLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2B5356BE63AE7C56AC0367E9A6F28F /* Pods-FYFrameLayout_Example-dummy.m */; };
+		E4658DEAB45CF7FFA45F577FEFC89845 /* Pods-FYFrameLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 156166E559F4CD4F95388F0F3598AF4A /* Pods-FYFrameLayout_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,46 +29,30 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D78214A59D136E94603042972551135;
+			remoteGlobalIDString = 49D3C5F39D5E16CA607590A2814D9D86;
 			remoteInfo = FYFrameLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02C94CABAE03A44ABED7764F1ED340DA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FYFrameLayout/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		067EF675C01DCFE3EC82D2203F6AD75B /* FYFrameLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFrameLayout.xcconfig; sourceTree = "<group>"; };
-		076B860D53753690B9E2DF5C03B00E63 /* FYFrameLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFrameLayout-prefix.pch"; sourceTree = "<group>"; };
-		2203C41664FA3F4125C399040C6DB9B1 /* FYFrameLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FYFrameLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2B95E0C41A565D3DBB1FB72090DC9018 /* FYFrameLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYFrameLayout-umbrella.h"; sourceTree = "<group>"; };
-		2F4705475C9DDD0630F53B3EDF5270B3 /* Pods-FYFrameLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFrameLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3408B6F72621298B8F96F1838E17E00D /* Pods-FYFrameLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFrameLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		35580852D84159D1DBD27588E4A348D6 /* FYFrameLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYFrameLayout-dummy.m"; sourceTree = "<group>"; };
-		4C2B5356BE63AE7C56AC0367E9A6F28F /* Pods-FYFrameLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYFrameLayout_Example-dummy.m"; sourceTree = "<group>"; };
-		564551E6CEB2E16E2D5D09CE0759B470 /* Pods-FYFrameLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYFrameLayout_Example.modulemap"; sourceTree = "<group>"; };
-		5A6B61D5DC153EB5A2BFDEC70495399A /* FYFrameLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FYFrameLayout.framework; path = FYFrameLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DA2EDA9EB24DF705F662EB568FC0A6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		721366ECB58AF60D389E15ABD8B28A98 /* Pods-FYFrameLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYFrameLayout_Example-umbrella.h"; sourceTree = "<group>"; };
-		8697E94F7F85A9409CC0935C5415EFAB /* FYFrameLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYFrameLayout-Info.plist"; sourceTree = "<group>"; };
-		91BB30AD49F4909385E8FB2CD8AB5EE7 /* Pods-FYFrameLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYFrameLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
+		006A88C404BDE9AC4C91BFB23E56D108 /* FYFrameLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FYFrameLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		05F1B22056BA2F331C79F5D21B622EFC /* Pods-FYFrameLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYFrameLayout_Example-umbrella.h"; sourceTree = "<group>"; };
+		156166E559F4CD4F95388F0F3598AF4A /* Pods-FYFrameLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYFrameLayout_Example-dummy.m"; sourceTree = "<group>"; };
+		292B40A400494D52E4A4C3DA94AE015B /* Pods-FYFrameLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYFrameLayout_Example.modulemap"; sourceTree = "<group>"; };
+		41F885C9B3B5A4E65C732B1D4A699C0E /* Pods-FYFrameLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFrameLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5796EFCA44A289521460DD4C69EBF6BD /* Pods-FYFrameLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFrameLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B5DE436DD6182A1B0890904E8105313B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BBC8D2BAEC2859A068A82BDE6DAF58F3 /* Pods_FYFrameLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FYFrameLayout_Example.framework; path = "Pods-FYFrameLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C55A97C58F9FA657613664BC8647E158 /* FYFrameLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYFrameLayout.modulemap; sourceTree = "<group>"; };
+		C88E055172B3F7F084D3F1122E00F731 /* Pods-FYFrameLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFrameLayout_Example-Info.plist"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D5051E4644D2BBE4A529F3E0AB60DB53 /* Pods-FYFrameLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFrameLayout_Example-Info.plist"; sourceTree = "<group>"; };
-		DFC4E12958A1DE88396E4A91820A16F9 /* Pods-FYFrameLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYFrameLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E30FC48EAEC4666E4973027A2E9DF922 /* Pods-FYFrameLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYFrameLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0F7DF7802AF02F34FDED33DE353FFD0 /* FYFrameLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYFrameLayout.xcconfig; sourceTree = "<group>"; };
+		E23DA7D30896210471E8400523F1CB0A /* Pods-FYFrameLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYFrameLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E792B914B7C2B564E1C2C36086BEC4C2 /* Pods-FYFrameLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYFrameLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E882EDFFC47E2548604FA875B8A26FB8 /* Pods_FYFrameLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FYFrameLayout_Example.framework; path = "Pods-FYFrameLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0AD5DFA414D86B85585A37E280F812 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FC05CEDF0E19AD99DCB4A8F74CC74EC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ADC0727C295581C96C643CA593A3DFF4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				112792F585AEBDDC149C01E6B0C730D7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B9B8EBBD44D2B818CB39536C75876354 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,28 +64,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CDF00ABDD58657A1DD0CEEFF3329446 /* Pod */ = {
+		029F4E65940B6ED6332C7D23F185F33D /* FYFrameLayout */ = {
 			isa = PBXGroup;
 			children = (
-				2203C41664FA3F4125C399040C6DB9B1 /* FYFrameLayout.podspec */,
-				5DA2EDA9EB24DF705F662EB568FC0A6D /* LICENSE */,
-				B5DE436DD6182A1B0890904E8105313B /* README.md */,
+				DC4749B89B99E6ED91F3D126EA58607D /* Pod */,
+				B1935594A61B1BF6309F6D8A880640BC /* Support Files */,
 			);
-			name = Pod;
+			name = FYFrameLayout;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		2BE7578CEA2F15756161F12D306BA79F /* Support Files */ = {
+		2D19EA6F9C46A737EAFDA7D820380D62 /* Pods-FYFrameLayout_Example */ = {
 			isa = PBXGroup;
 			children = (
-				C55A97C58F9FA657613664BC8647E158 /* FYFrameLayout.modulemap */,
-				067EF675C01DCFE3EC82D2203F6AD75B /* FYFrameLayout.xcconfig */,
-				35580852D84159D1DBD27588E4A348D6 /* FYFrameLayout-dummy.m */,
-				8697E94F7F85A9409CC0935C5415EFAB /* FYFrameLayout-Info.plist */,
-				076B860D53753690B9E2DF5C03B00E63 /* FYFrameLayout-prefix.pch */,
-				2B95E0C41A565D3DBB1FB72090DC9018 /* FYFrameLayout-umbrella.h */,
+				292B40A400494D52E4A4C3DA94AE015B /* Pods-FYFrameLayout_Example.modulemap */,
+				E792B914B7C2B564E1C2C36086BEC4C2 /* Pods-FYFrameLayout_Example-acknowledgements.markdown */,
+				5796EFCA44A289521460DD4C69EBF6BD /* Pods-FYFrameLayout_Example-acknowledgements.plist */,
+				156166E559F4CD4F95388F0F3598AF4A /* Pods-FYFrameLayout_Example-dummy.m */,
+				C88E055172B3F7F084D3F1122E00F731 /* Pods-FYFrameLayout_Example-Info.plist */,
+				05F1B22056BA2F331C79F5D21B622EFC /* Pods-FYFrameLayout_Example-umbrella.h */,
+				41F885C9B3B5A4E65C732B1D4A699C0E /* Pods-FYFrameLayout_Example.debug.xcconfig */,
+				E23DA7D30896210471E8400523F1CB0A /* Pods-FYFrameLayout_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FYFrameLayout";
+			name = "Pods-FYFrameLayout_Example";
+			path = "Target Support Files/Pods-FYFrameLayout_Example";
+			sourceTree = "<group>";
+		};
+		76D2536CB278269DBB3F496ABF89CADF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				029F4E65940B6ED6332C7D23F185F33D /* FYFrameLayout */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -104,35 +106,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		9F80713BB04FBAED727BBC1FE93ECF98 /* Products */ = {
+		B1935594A61B1BF6309F6D8A880640BC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A6B61D5DC153EB5A2BFDEC70495399A /* FYFrameLayout.framework */,
-				BBC8D2BAEC2859A068A82BDE6DAF58F3 /* Pods_FYFrameLayout_Example.framework */,
+				E0F7DF7802AF02F34FDED33DE353FFD0 /* FYFrameLayout.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FYFrameLayout";
+			sourceTree = "<group>";
+		};
+		CBD91FD779164D30C85A93A777B7C781 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D19EA6F9C46A737EAFDA7D820380D62 /* Pods-FYFrameLayout_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E235478206F6D2246905D46D168E1ADA /* Development Pods */,
+				76D2536CB278269DBB3F496ABF89CADF /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9F80713BB04FBAED727BBC1FE93ECF98 /* Products */,
-				E00598E8FC70AD37FA9A046DC53E3CC4 /* Targets Support Files */,
+				D8B631F617FBAD55C191C112C5401600 /* Products */,
+				CBD91FD779164D30C85A93A777B7C781 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D16AE66FBA36D4131185BFCDDFAC1965 /* FYFrameLayout */ = {
-			isa = PBXGroup;
-			children = (
-				02C94CABAE03A44ABED7764F1ED340DA /* ReplaceMe.m */,
-				1CDF00ABDD58657A1DD0CEEFF3329446 /* Pod */,
-				2BE7578CEA2F15756161F12D306BA79F /* Support Files */,
-			);
-			name = FYFrameLayout;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -143,50 +142,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DB49E5B7D2569435BC512421FFD70B8F /* Pods-FYFrameLayout_Example */ = {
+		D8B631F617FBAD55C191C112C5401600 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				564551E6CEB2E16E2D5D09CE0759B470 /* Pods-FYFrameLayout_Example.modulemap */,
-				E30FC48EAEC4666E4973027A2E9DF922 /* Pods-FYFrameLayout_Example-acknowledgements.markdown */,
-				DFC4E12958A1DE88396E4A91820A16F9 /* Pods-FYFrameLayout_Example-acknowledgements.plist */,
-				4C2B5356BE63AE7C56AC0367E9A6F28F /* Pods-FYFrameLayout_Example-dummy.m */,
-				91BB30AD49F4909385E8FB2CD8AB5EE7 /* Pods-FYFrameLayout_Example-frameworks.sh */,
-				D5051E4644D2BBE4A529F3E0AB60DB53 /* Pods-FYFrameLayout_Example-Info.plist */,
-				721366ECB58AF60D389E15ABD8B28A98 /* Pods-FYFrameLayout_Example-umbrella.h */,
-				2F4705475C9DDD0630F53B3EDF5270B3 /* Pods-FYFrameLayout_Example.debug.xcconfig */,
-				3408B6F72621298B8F96F1838E17E00D /* Pods-FYFrameLayout_Example.release.xcconfig */,
+				E882EDFFC47E2548604FA875B8A26FB8 /* Pods_FYFrameLayout_Example.framework */,
 			);
-			name = "Pods-FYFrameLayout_Example";
-			path = "Target Support Files/Pods-FYFrameLayout_Example";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		E00598E8FC70AD37FA9A046DC53E3CC4 /* Targets Support Files */ = {
+		DC4749B89B99E6ED91F3D126EA58607D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DB49E5B7D2569435BC512421FFD70B8F /* Pods-FYFrameLayout_Example */,
+				006A88C404BDE9AC4C91BFB23E56D108 /* FYFrameLayout.podspec */,
+				FC05CEDF0E19AD99DCB4A8F74CC74EC6 /* LICENSE */,
+				EC0AD5DFA414D86B85585A37E280F812 /* README.md */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E235478206F6D2246905D46D168E1ADA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D16AE66FBA36D4131185BFCDDFAC1965 /* FYFrameLayout */,
-			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		041E7991E1835C85CC9E628C69278533 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3684DE27532F8A9027FACDB4CB4F731F /* FYFrameLayout-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87B1565DBB24526CCF81CCB1394053C5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,24 +174,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1D78214A59D136E94603042972551135 /* FYFrameLayout */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 920FE6F7201159520545FA1C022E28B3 /* Build configuration list for PBXNativeTarget "FYFrameLayout" */;
-			buildPhases = (
-				041E7991E1835C85CC9E628C69278533 /* Headers */,
-				A206BC72E7E223FF0251C39325A939D4 /* Sources */,
-				ADC0727C295581C96C643CA593A3DFF4 /* Frameworks */,
-				6C05B9B122214026CBB8E7B29FB3E60F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FYFrameLayout;
-			productName = FYFrameLayout;
-			productReference = 5A6B61D5DC153EB5A2BFDEC70495399A /* FYFrameLayout.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		E640B88EA4CE52E307A294711199D99E /* Pods-FYFrameLayout_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EF0A89E073F27758D16A5277B0FB78A /* Build configuration list for PBXNativeTarget "Pods-FYFrameLayout_Example" */;
@@ -232,7 +190,7 @@
 			);
 			name = "Pods-FYFrameLayout_Example";
 			productName = "Pods-FYFrameLayout_Example";
-			productReference = BBC8D2BAEC2859A068A82BDE6DAF58F3 /* Pods_FYFrameLayout_Example.framework */;
+			productReference = E882EDFFC47E2548604FA875B8A26FB8 /* Pods_FYFrameLayout_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -252,24 +210,17 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9F80713BB04FBAED727BBC1FE93ECF98 /* Products */;
+			productRefGroup = D8B631F617FBAD55C191C112C5401600 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D78214A59D136E94603042972551135 /* FYFrameLayout */,
+				49D3C5F39D5E16CA607590A2814D9D86 /* FYFrameLayout */,
 				E640B88EA4CE52E307A294711199D99E /* Pods-FYFrameLayout_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6C05B9B122214026CBB8E7B29FB3E60F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8DAACA18328505A1B067A3EC9C207EDF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,22 +239,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A206BC72E7E223FF0251C39325A939D4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DE83E4E511F44918D135DCE420632EB /* FYFrameLayout-dummy.m in Sources */,
-				A33314DE01D7F2CB8B516688BD71C5CB /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		89B79606315E20E944337F1932A8FF57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FYFrameLayout;
-			target = 1D78214A59D136E94603042972551135 /* FYFrameLayout */;
+			target = 49D3C5F39D5E16CA607590A2814D9D86 /* FYFrameLayout */;
 			targetProxy = 5CF35505F4F1739B6C169DCA72FFF5D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -311,7 +253,7 @@
 /* Begin XCBuildConfiguration section */
 		0CD9AD6D8986DF3889C87F33364D12D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3408B6F72621298B8F96F1838E17E00D /* Pods-FYFrameLayout_Example.release.xcconfig */;
+			baseConfigurationReference = E23DA7D30896210471E8400523F1CB0A /* Pods-FYFrameLayout_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -406,7 +348,7 @@
 		};
 		329296254605A6083F386DB30D040585 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F4705475C9DDD0630F53B3EDF5270B3 /* Pods-FYFrameLayout_Example.debug.xcconfig */;
+			baseConfigurationReference = 41F885C9B3B5A4E65C732B1D4A699C0E /* Pods-FYFrameLayout_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -432,36 +374,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4FF73483C85A541CC670086AF369D5AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 067EF675C01DCFE3EC82D2203F6AD75B /* FYFrameLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FYFrameLayout/FYFrameLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FYFrameLayout/FYFrameLayout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FYFrameLayout/FYFrameLayout.modulemap";
-				PRODUCT_MODULE_NAME = FYFrameLayout;
-				PRODUCT_NAME = FYFrameLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -532,36 +444,32 @@
 			};
 			name = Debug;
 		};
-		B0B8E5557E794906348063BCA96DD851 /* Release */ = {
+		963A6B60B9E9AB0902383DB4B3B687B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 067EF675C01DCFE3EC82D2203F6AD75B /* FYFrameLayout.xcconfig */;
+			baseConfigurationReference = E0F7DF7802AF02F34FDED33DE353FFD0 /* FYFrameLayout.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FYFrameLayout/FYFrameLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FYFrameLayout/FYFrameLayout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FYFrameLayout/FYFrameLayout.modulemap";
-				PRODUCT_MODULE_NAME = FYFrameLayout;
-				PRODUCT_NAME = FYFrameLayout;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		ED4AF817C34D71ED846FEFC22E9D0784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F7DF7802AF02F34FDED33DE353FFD0 /* FYFrameLayout.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -584,11 +492,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		920FE6F7201159520545FA1C022E28B3 /* Build configuration list for PBXNativeTarget "FYFrameLayout" */ = {
+		D63C0CCAE7EF48C598E6BD8146C305CF /* Build configuration list for PBXAggregateTarget "FYFrameLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FF73483C85A541CC670086AF369D5AB /* Debug */,
-				B0B8E5557E794906348063BCA96DD851 /* Release */,
+				ED4AF817C34D71ED846FEFC22E9D0784 /* Debug */,
+				963A6B60B9E9AB0902383DB4B3B687B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
