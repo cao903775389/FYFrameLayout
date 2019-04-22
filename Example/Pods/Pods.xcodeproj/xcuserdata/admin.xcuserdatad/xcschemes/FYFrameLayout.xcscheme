@@ -14,8 +14,8 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49D3C5F39D5E16CA607590A2814D9D86"
-               BuildableName = "FYFrameLayout"
+               BlueprintIdentifier = "71189B1910FA345FA29AB70C3E271D8C"
+               BuildableName = "FYFrameLayout.framework"
                BlueprintName = "FYFrameLayout"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIView+FYFrameLayout.h"
 
 FOUNDATION_EXPORT double FYFrameLayoutVersionNumber;
 FOUNDATION_EXPORT const unsigned char FYFrameLayoutVersionString[];
